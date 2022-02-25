@@ -1,0 +1,15 @@
+.social-button {
+    background-color: var(--color-red);
+    display: block;
+    padding: 5px;
+    width: 35px;
+    transition: background-color 0.15s ease-in-out;
+}
+
+.social-button:hover {
+    background-color: var(--color-red-dark);
+}
+
+.social-button svg {
+    stroke: var(--color-white);
+}

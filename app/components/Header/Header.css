@@ -1,0 +1,56 @@
+.header {
+    background-color: var(--color-red);
+    color: var(--color-white);
+    position: relative;
+    z-index: 2;
+}
+
+.header__inner {
+    display: flex;
+    max-width: var(--section-width);
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.header__logo {
+    flex-shrink: 0;
+}
+
+.header__buttons {
+    display: none;
+    gap: 10px; /* this doesn't work on IE & Safari but fine for this test */
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.header__button {
+    display: none;
+}
+
+.header__nav-toggle {
+    display: block;
+    flex-shrink: 0;
+}
+
+@media screen and (min-width: 480px) {
+    .header__buttons {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .header__buttons {
+        display: flex;
+    }
+
+    .header__button {
+        display: block;
+    }
+
+    .header__nav-toggle {
+        display: none;
+    }
+}
+

@@ -1,0 +1,62 @@
+:root {
+    --color-black: #000;
+    --color-dark-grey: #13121A;
+    --color-light-grey: #3C3C42;
+    --color-white: #fff;
+    --color-red: #c30006;
+    --color-red-dark: #7E1014;
+    --section-width: 1400px;
+}
+
+body {
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.visuallyhidden {
+    text-indent: -9999px
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.page {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 1400px;;
+}
+
+/*
+    Videos
+    To save time I just put the styles here
+*/
+.video-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1400px;
+    margin: 70px auto;
+    padding: 0 30px;
+}
+
+.video-list div {
+    margin-bottom: 15px;
+}
+
+.video-list img {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.video-list a {
+    color: var(--color-dark-grey);
+}

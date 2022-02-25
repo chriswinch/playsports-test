@@ -1,0 +1,10 @@
+.footer {
+    background-color: var(--color-red);
+    color: var(--color-white);
+    padding: 20px;
+}
+
+.footer__inner {
+    max-width: 1400px;
+    margin: 0 auto;
+}
